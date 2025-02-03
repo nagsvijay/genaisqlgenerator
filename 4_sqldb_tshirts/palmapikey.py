@@ -1,6 +1,6 @@
 import google.generativeai as palm
 
-palm.configure(api_key="AIzaSyAnZ3nhAcJqhWJjh3rWaApM5SOQiA9k-4o")
+#palm.configure(api_key="AIzaSyAnZ3nhAcJqhWJjh3rWaApM5SOQiA9k-4o")
 
 try:
     models = palm.list_models()
@@ -11,7 +11,7 @@ except Exception as e:
 
 from google.generativeai import configure, list_models
 
-configure(api_key="AIzaSyAnZ3nhAcJqhWJjh3rWaApM5SOQiA9k-4o")
+#configure(api_key="AIzaSyAnZ3nhAcJqhWJjh3rWaApM5SOQiA9k-4o")
 
 try:
     models = list_models()
