@@ -1,0 +1,3 @@
+from langchain_experimental.sql import SQLDatabaseChain
+
+SQLDatabaseChain.model_rebuild()
