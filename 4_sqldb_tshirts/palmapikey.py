@@ -11,7 +11,7 @@ except Exception as e:
 
 from google.generativeai import configure, list_models
 
-#configure(api_key="AIzaSyAnZ3nhAcJqhWJjh3rWaApM5SOQiA9k-4o")
+configure(api_key="ActualKey")
 
 try:
     models = list_models()
